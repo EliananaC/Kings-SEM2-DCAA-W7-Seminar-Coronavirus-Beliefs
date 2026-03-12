@@ -2,11 +2,13 @@
 title: "Coronavirus Beliefs Analysis"
 author: "Eliana"
 date: "2026-03-12"
-output: html_document
+output:
+  word_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 
 library(dplyr)
 library(readr)
